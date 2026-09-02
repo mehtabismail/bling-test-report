@@ -1,0 +1,338 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","0","should read a numeric Retry-After header","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"","0","should not report Other when the attribute does not allow custom values","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/utils","",""
+"","0","should select the matching option when the stored value is predefined","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/utils","",""
+"","1","should upper-case and strip spaces","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","1","passes a single gender as string","","Wed Sep 02 15:32:33 UTC 2026","passed","Wed Sep 02 15:32:33 UTC 2026","","__tests__/modules/product","",""
+"","0","should not carry an invalid number into Saudi Arabia when switching back","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","should resolve the dial code for PK","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"Fresh-install (deferred) deep link scenarios.
+
+These cover the one launch that cannot be re-run by hand on a device without
+uninstalling first: the first open after a store install, where the deep link
+arrives from cached install attribution rather than an inbound URL.
+
+Each `launch()` uses jest.resetModules() to reset module-level state the way a
+cold start does, while AsyncStorage contents survive — exactly like a real
+app relaunch.","5","navigates only once even though polling continues","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/services/deeplink","",""
+"","0","is flat for missing / invalid values","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","resolveTrendDirection","src/modules/market/__tests__","",""
+"","0","should send the custom value entered under Other","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/utils","",""
+"","0","should reject a number longer than 9 digits","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","should produce a placeholder mask in the existing Saudi style","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","syncs verified status from profile when auth is stale","","Wed Sep 02 15:32:32 UTC 2026","passed","Wed Sep 02 15:32:32 UTC 2026","","__tests__/utils","",""
+"","1","should fall back to amount when the source currency is already SAR","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/modules/listing","",""
+"","3","should default to Saudi Arabia","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","starts in IDLE with no active session","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","__tests__/modules/checkout","",""
+"","1","derives search query and brand ids from filters","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","__tests__/modules/product","",""
+"","1","should clear the selection when selectExample is dispatched with null","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","src/modules/_example/__tests__","",""
+"","0","should return the selected id","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","src/modules/_example/__tests__","",""
+"","0","should report nothing selected when there is no stored value","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/utils","",""
+"","2","returns model when backing out of details","","Wed Sep 02 15:32:32 UTC 2026","passed","Wed Sep 02 15:32:32 UTC 2026","","__tests__/modules/listing","",""
+"Fresh-install (deferred) deep link scenarios.
+
+These cover the one launch that cannot be re-run by hand on a device without
+uninstalling first: the first open after a store install, where the deep link
+arrives from cached install attribution rather than an inbound URL.
+
+Each `launch()` uses jest.resetModules() to reset module-level state the way a
+cold start does, while AsyncStorage contents survive — exactly like a real
+app relaunch.","13","stops polling and navigates nothing for an organic install","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/services/deeplink","",""
+"","1","should apply the selected country's rules on login","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","should read a status from a wrapped error","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"Fresh-install (deferred) deep link scenarios.
+
+These cover the one launch that cannot be re-run by hand on a device without
+uninstalling first: the first open after a store install, where the deep link
+arrives from cached install attribution rather than an inbound URL.
+
+Each `launch()` uses jest.resetModules() to reset module-level state the way a
+cold start does, while AsyncStorage contents survive — exactly like a real
+app relaunch.","5","opens signup with the referral code applied","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/services/deeplink","",""
+"","0","should not strip a suffix that is part of the name","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","1","should surface an invalid or unsupported phone as a plain retry","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"","0","should drop a pasted 966 prefix as it did before","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","2","should delegate to the existing Saudi helpers","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","serializes filter fields to query params","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","filterToQueryParams","__tests__/modules/product","",""
+"","1","should never emit +966 for a valid AE number","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","2","should send a login on an unknown phone to signup","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"","0","should report no active filters when the state is untouched","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","src/modules/_example/__tests__","",""
+"","0","should classify a verify rate limit","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"","1","should read an HTTP-date Retry-After","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"","0","should prefer backend options over the configured preset","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/utils","",""
+"","9","should treat a country as a match for its own name and code","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","returns exit for routes outside create-listing","","Wed Sep 02 15:32:32 UTC 2026","passed","Wed Sep 02 15:32:32 UTC 2026","","__tests__/modules/listing","",""
+"","1","should report unavailable when WatchCharts does not know the reference","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/modules/listing","",""
+"","1","detects no active filters on defaults","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","hasActiveFilters / countActiveFilters / withFilterMeta","__tests__/modules/product","",""
+"","0","should return empty when there is no message","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"","1","returns false for buyers and unknown statuses","","Wed Sep 02 15:32:33 UTC 2026","passed","Wed Sep 02 15:32:33 UTC 2026","","__tests__/utils","",""
+"","1","should handle empty and missing input","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","1","should apply Saudi rules on login when Saudi Arabia is selected","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","should be false for DROPDOWN and BOOLEAN","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/utils","",""
+"","0","should ignore case, spaces and hyphens","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","__tests__/utils","",""
+"","2","handles legacy logout action type","","Wed Sep 02 15:32:33 UTC 2026","passed","Wed Sep 02 15:32:33 UTC 2026","","__tests__/store","",""
+"","0","should not use a USD amount as if it were SAR","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/modules/listing","",""
+"","0","should accept a valid IN number and format it to E.164","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","dispatches logout, purges persist, rehydrates theme, then persists","","Wed Sep 02 15:32:31 UTC 2026","passed","Wed Sep 02 15:32:31 UTC 2026","","__tests__/modules/auth","",""
+"","0","should keep waiting when pricesLoading is false but no price arrived yet","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/modules/listing","",""
+"","0","should store the selected id when selectExample is dispatched","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","src/modules/_example/__tests__","",""
+"","1","should map Diriyah spelling variants","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","0","should return the search term","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","src/modules/_example/__tests__","",""
+"","1","should still require a phone number","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","should read a numeric string status","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"","1","should accept a positive number","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/modules/listing","",""
+"","3","should not emit catalog attribute review issues when reference is selected","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","__tests__/modules/listing","",""
+"","0","should reject an empty number","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","10","should keep the dataset's alphabetical order in the results","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","2","should accept a valid GB number and format it to E.164","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","should report a custom value as Other and keep it","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/utils","",""
+"","1","computes resume route from draft completion","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","__tests__/modules/listing","",""
+"","0","should not count a whitespace-only search as an active filter","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","src/modules/_example/__tests__","",""
+"","2","should map every alias to a non-empty city","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","0","should reject an empty number","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","should resolve the dial code for IN","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","should read a wrapped message","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"","0","should resolve the dial code for EG","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","should resolve the dial code for US","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","should keep the Saudi error message for Saudi and a generic one otherwise","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","2","transitions to WEBVIEW_OPEN when session is set","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","__tests__/modules/checkout","",""
+"","0","should never be a value a user could select by accident","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/utils","",""
+"","0","should treat a wrong code as retryable","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"","1","should reject anything else","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","1","should offer Yes/No without Other for a handle drop attribute","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/utils","",""
+"","0","should match on the Arabic name","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","selects product listing and count","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","__tests__/modules/product","",""
+"","1","should match on the English name, case-insensitively","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","should report unavailable once the poll window closes with no price","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/modules/listing","",""
+"","35","should give every country a dial code and both names","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","returns details for detail sub-screens","","Wed Sep 02 15:32:32 UTC 2026","passed","Wed Sep 02 15:32:32 UTC 2026","","__tests__/modules/listing","",""
+"","1","should return every country for an empty or whitespace query","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","should omit the attribute when nothing was selected","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/utils","",""
+"","1","should fall back to a default wait when Retry-After is missing","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"","1","returns defaults for pagination and sorting","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","createEmptyFilter","__tests__/modules/product","",""
+"","0","resetPaymentState preserves pendingRecovery","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","__tests__/modules/checkout","",""
+"","0","should return nothing for a query that matches no country","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","should coerce a non-boolean hasMore to a boolean","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","src/modules/_example/__tests__","",""
+"","1","should send a signup on an existing phone to login","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"","1","syncs saved sessions and first-time new sessions only","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","__tests__/modules/listing","",""
+"","1","should match on the calling code with or without a plus","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","2","should leave cities DHL already accepts untouched","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","1","returns details when backing out of review","","Wed Sep 02 15:32:32 UTC 2026","passed","Wed Sep 02 15:32:32 UTC 2026","","__tests__/modules/listing","",""
+"","0","should be case-insensitive about the header name","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"","1","should report active filters when a search term is present","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","src/modules/_example/__tests__","",""
+"","1","should return empty when there is nothing to work with","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","0","should strip the region suffix when no alias applies","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","0","should produce a code the existing validator accepts","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","1","locks and unlocks payment","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","__tests__/modules/checkout","",""
+"","1","should drop the Google region suffix","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","0","should never send the word Other as the value","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/utils","",""
+"","3","should accept a Saudi number on login when no country is supplied","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","respects the requested precision","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","formatSignedPct","src/modules/market/__tests__","",""
+"","0","should preserve a valid status","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","src/modules/_example/__tests__","",""
+"","0","should not send a signup 401 to signup","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"","1","omits undefined optional fields","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","filterToQueryParams","__tests__/modules/product","",""
+"","2","merges base with updates, updates take precedence","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","mergeFilters","__tests__/modules/product","",""
+"","0","should apply aliases to the region fallback too","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","1","should not map a city to itself","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","3","should still send a signup 409 to login on verify","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"","1","derives direction from the sign when none is given","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","resolveTrendDirection","src/modules/market/__tests__","",""
+"","1","should return the initial state when given an unknown action","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","src/modules/_example/__tests__","",""
+"","1","builds a draft row with fallback title","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","__tests__/modules/listing","",""
+"","0","should return null for a plain text attribute with no configured options","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/utils","",""
+"","0","should block a pending payment","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","__tests__/utils","",""
+"","3","tracks saved draft and last route for resume","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","__tests__/modules/listing","",""
+"","1","counts only stepper steps once model is selected","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","__tests__/modules/listing","",""
+"","1","should block the other unpaid spellings","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","__tests__/utils","",""
+"","0","marks success and clears recovery data","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","__tests__/modules/checkout","",""
+"","0","should split the code off a real Google SA address","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","0","returns true for verified statuses","","Wed Sep 02 15:32:33 UTC 2026","passed","Wed Sep 02 15:32:33 UTC 2026","","__tests__/utils","",""
+"Fresh-install (deferred) deep link scenarios.
+
+These cover the one launch that cannot be re-run by hand on a device without
+uninstalling first: the first open after a store install, where the deep link
+arrives from cached install attribution rather than an inbound URL.
+
+Each `launch()` uses jest.resetModules() to reset module-level state the way a
+cold start does, while AsyncStorage contents survive — exactly like a real
+app relaunch.","7","does not double-navigate when the SDK resolve event fires first","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/services/deeplink","",""
+"","0","should allow a 15-digit ceiling for the input field","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","should trim surrounding whitespace","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","1","should cap typed input at 9 digits","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","should not apply the Saudi 9-digit limit to other countries","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"Fresh-install (deferred) deep link scenarios.
+
+These cover the one launch that cannot be re-run by hand on a device without
+uninstalling first: the first open after a store install, where the deep link
+arrives from cached install attribution rather than an inbound URL.
+
+Each `launch()` uses jest.resetModules() to reset module-level state the way a
+cold start does, while AsyncStorage contents survive — exactly like a real
+app relaunch.","3","cancels pending polls on cleanup","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/services/deeplink","",""
+"","0","should return an empty string for an invalid Saudi number","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","should return an empty string when formatting an invalid number","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","adds a + sign only to positive values","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","formatSignedPct","src/modules/market/__tests__","",""
+"","1","should return Riyadh for the reported Diriyah address","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","0","should use backend-provided options when present","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/utils","",""
+"","0","should format to +966 E.164","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","2","should read a status nested under data","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"","1","removes a single filter key","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","removeFilterKey","__tests__/modules/product","",""
+"","0","should classify a rate limit and carry Retry-After","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"","1","should handle an Arabic comma separator","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","0","should report nothing selected when the attribute has no options","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/utils","",""
+"","1","replaces saved draft without clearing when starting a fresh session elsewhere","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","__tests__/modules/listing","",""
+"","2","should accept 4 letters followed by 4 digits","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","0","should drop a leading zero as it did before","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","should never emit +966 for a valid PK number","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","should send the seller's own number when they type instead","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/modules/listing","",""
+"","0","defaults to the 7d window","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","emptyMarketMovers","src/modules/market/__tests__","",""
+"","0","should treat a verify 401 as a plain failure, not a missing account","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"","0","should not treat a street name plus number as a code","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","2","does not downgrade verified auth status when profile is still pending","","Wed Sep 02 15:32:32 UTC 2026","passed","Wed Sep 02 15:32:32 UTC 2026","","__tests__/utils","",""
+"","1","should keep the Saudi input limit at 9 digits","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","should never be resolved as a stored value","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/utils","",""
+"","1","should read a plain status","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"","0","should use the region when no locality is present","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","0","should restore filters and selection when resetExampleFilters is dispatched","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","src/modules/_example/__tests__","",""
+"","0","should store the option value through the normal validator","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/utils","",""
+"","0","should return an empty list when items is missing","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","src/modules/_example/__tests__","",""
+"","1","should contain every country libphonenumber supports","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","2","should set the search term when setSearch is dispatched","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","src/modules/_example/__tests__","",""
+"","1","should handle a space separator instead of a comma","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","0","should prefer amountSar over the source amount","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/modules/listing","",""
+"","1","clears error when flow returns to IDLE","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","__tests__/modules/checkout","",""
+"","1","should treat details as complete without manual catalog attributes when reference is selected","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","__tests__/modules/listing","",""
+"","1","should resolve the dial code for GB","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","ranks review ahead of details","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","__tests__/modules/listing","",""
+"","1","should fall back to the region when there is no city at all","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","1","resumes at review when draft is complete even after navigating back","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","__tests__/modules/listing","",""
+"","2","selects a product by id","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","__tests__/modules/product","",""
+"","0","advances saved last route when moving forward","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","__tests__/modules/listing","",""
+"","1","should omit manual catalog attributeValues from the API body when reference is selected","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","__tests__/modules/listing","",""
+"","2","passes multiple genders as array for API","","Wed Sep 02 15:32:33 UTC 2026","passed","Wed Sep 02 15:32:33 UTC 2026","","__tests__/modules/product","",""
+"","1","should return undefined for an unknown country","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","should accept a valid PK number and format it to E.164","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","should trim the title when it has surrounding whitespace","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","src/modules/_example/__tests__","",""
+"","1","returns a new object without mutating the source","","Wed Sep 02 15:32:33 UTC 2026","passed","Wed Sep 02 15:32:33 UTC 2026","","__tests__/modules/cart","",""
+"","1","should not match a status that merely contains 'pending'","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","__tests__/utils","",""
+"","1","should match a partial name anywhere in the string","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","should not block when the status is missing","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","__tests__/utils","",""
+"Fresh-install (deferred) deep link scenarios.
+
+These cover the one launch that cannot be re-run by hand on a device without
+uninstalling first: the first open after a store install, where the deep link
+arrives from cached install attribution rather than an inbound URL.
+
+Each `launch()` uses jest.resetModules() to reset module-level state the way a
+cold start does, while AsyncStorage contents survive — exactly like a real
+app relaunch.","6","does not route again on the next launch","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/services/deeplink","",""
+"","1","should map items and pagination when the payload is well formed","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","src/modules/_example/__tests__","",""
+"","1","should strip a pasted calling code","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","returns false for an empty draft","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","__tests__/modules/listing","",""
+"","3","should reject missing, empty, zero, and non-numeric values","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/modules/listing","",""
+"","1","should not block statuses the backend decides on","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","__tests__/utils","",""
+"","1","should re-apply Saudi rules when switching back from another country","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","should default price to zero when the backend omits it","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","src/modules/_example/__tests__","",""
+"","1","should match an option regardless of case or padding","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/utils","",""
+"","1","should be sorted by English name","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","should send a predefined option as the value itself","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/utils","",""
+"","0","should never emit +966 for a valid EG number","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","should map every field when the response is complete","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","src/modules/_example/__tests__","",""
+"","1","should return null when there is no status","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"","1","maps cart totals into a CartSummary","","Wed Sep 02 15:32:33 UTC 2026","passed","Wed Sep 02 15:32:33 UTC 2026","","__tests__/modules/cart","",""
+"","1","should handle empty input","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","0","should prefer the API message","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"","1","does not overwrite verified auth status when profile omits sellerVerifyStatus","","Wed Sep 02 15:32:32 UTC 2026","passed","Wed Sep 02 15:32:32 UTC 2026","","__tests__/utils","",""
+"","1","detects active filters excluding mode and sections","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","__tests__/modules/product","",""
+"","2","should trim digits beyond the country's maximum length","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","should reject a number shorter than 9 digits","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","counts wizard and stepper steps for an early draft","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","__tests__/modules/listing","",""
+"","0","should strip a national trunk prefix","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","treats near-zero moves as flat","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","resolveTrendDirection","src/modules/market/__tests__","",""
+"","0","should include Saudi Arabia with its calling code and Arabic name","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","8","returns true once gender is selected","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","__tests__/modules/listing","",""
+"","0","should not rewrite Jeddah to its province","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","1","preserves theme while resetting user session slices","","Wed Sep 02 15:32:33 UTC 2026","passed","Wed Sep 02 15:32:33 UTC 2026","","__tests__/store","",""
+"","2","should still require manual catalog attributes when no reference is selected","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","__tests__/modules/listing","",""
+"","0","should normalize the extracted code","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","1","should narrow as more digits of the calling code are typed","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"Fresh-install (deferred) deep link scenarios.
+
+These cover the one launch that cannot be re-run by hand on a device without
+uninstalling first: the first open after a store install, where the deep link
+arrives from cached install attribution rather than an inbound URL.
+
+Each `launch()` uses jest.resetModules() to reset module-level state the way a
+cold start does, while AsyncStorage contents survive — exactly like a real
+app relaunch.","7","drops the code after the app is killed, leaving normal signup only","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/services/deeplink","",""
+"","0","should keep the address when the code is the entire string","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","0","should become ready once the market price lands","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/modules/listing","",""
+"","0","should default currency to SAR when the backend omits it","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","src/modules/_example/__tests__","",""
+"","1","should not match a longer alphanumeric token","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","0","maps each direction to a glyph","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","trendArrow","src/modules/market/__tests__","",""
+"","0","should resolve the dial code for AE","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","should reject a too-long number","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","2","should be idle when the listing has no watch reference","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/modules/listing","",""
+"","0","detects filter key change when second gender is added","","Wed Sep 02 15:32:33 UTC 2026","passed","Wed Sep 02 15:32:33 UTC 2026","","__tests__/modules/product","",""
+"","1","should fall back to DRAFT when the status is unrecognized","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","src/modules/_example/__tests__","",""
+"Fresh-install (deferred) deep link scenarios.
+
+These cover the one launch that cannot be re-run by hand on a device without
+uninstalling first: the first open after a store install, where the deep link
+arrives from cached install attribution rather than an inbound URL.
+
+Each `launch()` uses jest.resetModules() to reset module-level state the way a
+cold start does, while AsyncStorage contents survive — exactly like a real
+app relaunch.","5","keeps the code available while the session lives","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/services/deeplink","",""
+"","1","produces null headlines and empty item lists","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","emptyMarketMovers","src/modules/market/__tests__","",""
+"","0","should stay loading while both prices are missing","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/modules/listing","",""
+"","1","should ignore blank backend option values","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/utils","",""
+"","0","should send the SAR amount when the seller taps a recommendation","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/modules/listing","",""
+"","0","should never emit +966 for a valid IN number","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","should accept a valid AE number and format it to E.164","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","should return null when the header is absent or unusable","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"","0","should match on the ISO code","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","should send a NUMBER attribute's option as a number","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/utils","",""
+"","3","should accept a valid US number and format it to E.164","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","should never emit +966 for a valid US number","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","should be true for TEXT and NUMBER","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/utils","",""
+"","2","does not downgrade saved last route when stepping back","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","__tests__/modules/listing","",""
+"","0","should accept a numeric string","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/modules/listing","",""
+"","0","should leave an address without a code untouched","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","0","should reject a too-short number","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","returns exit for the first step","","Wed Sep 02 15:32:32 UTC 2026","passed","Wed Sep 02 15:32:32 UTC 2026","","__tests__/modules/listing","",""
+"","1","should not match a code that is not at the start","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","0","should never auto-fill the price from a recommendation","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/modules/listing","",""
+"","0","should not apply the Saudi leading-5 rule to other countries","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","should keep a leading digit that is part of the number","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","3","should accept a 9-digit number starting with 5","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","3","returns null for missing values so callers can show an empty state","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","formatSignedPct","src/modules/market/__tests__","",""
+"","1","should accept a valid EG number and format it to E.164","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","should allow a paid order through","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","","__tests__/utils","",""
+"","0","should keep every Handle Drop option valid","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/utils","",""
+"","0","keeps only pagination and sorting","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","clearFilters","__tests__/modules/product","",""
+"","1","should apply to watch categories","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/modules/listing","",""
+"","3","fullResetPaymentState clears everything","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","__tests__/modules/checkout","",""
+"","0","should become ready on retail alone, since that is a usable suggestion","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/modules/listing","",""
+"","6","should resolve the Saudi dial code to +966","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","should never emit +966 for a valid GB number","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","should reject a number that does not start with 5","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","2","should leave a plain city alone","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
+"","0","should force a new OTP after five wrong codes","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"","2","should apply the same phone rules on signup","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","0","should use the provided fallback when the API sent none","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/modules/auth","",""
+"","0","should return null for attribute types that already have a picker","","Wed Sep 02 15:32:27 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/utils","",""
+"","1","should merge partial filters when setFilters is dispatched","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","","src/modules/_example/__tests__","",""
+"","1","should apply Saudi rules when no country is passed","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","counts each active dimension","","Wed Sep 02 15:32:29 UTC 2026","passed","Wed Sep 02 15:32:29 UTC 2026","hasActiveFilters / countActiveFilters / withFilterMeta","__tests__/modules/product","",""
+"","1","should keep the Saudi placeholder identical to the existing one","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:26 UTC 2026","","__tests__/utils","",""
+"","1","should accept a formatted or padded string","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/modules/listing","",""
+"","1","prefers an explicit backend direction over the sign","","Wed Sep 02 15:32:30 UTC 2026","passed","Wed Sep 02 15:32:30 UTC 2026","resolveTrendDirection","src/modules/market/__tests__","",""
+"Fresh-install (deferred) deep link scenarios.
+
+These cover the one launch that cannot be re-run by hand on a device without
+uninstalling first: the first open after a store install, where the deep link
+arrives from cached install attribution rather than an inbound URL.
+
+Each `launch()` uses jest.resetModules() to reset module-level state the way a
+cold start does, while AsyncStorage contents survive — exactly like a real
+app relaunch.","260","routes to product detail when attribution lands after several seconds","","Wed Sep 02 15:32:26 UTC 2026","passed","Wed Sep 02 15:32:27 UTC 2026","","__tests__/services/deeplink","",""
+"","0","should map Diriyah to Riyadh","","Wed Sep 02 15:32:28 UTC 2026","passed","Wed Sep 02 15:32:28 UTC 2026","","__tests__/utils","",""
