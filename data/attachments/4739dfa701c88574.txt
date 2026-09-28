@@ -1,6 +1,0 @@
-These screenshots were not published because they could not be checked for
-personal data (see docs/29-test-reporting.md):
-
-  - step-065-assertCondition-otp-input.png: screen covered by an overlay the hierarchy cannot see behind
-  - step-063-assertCondition-otp-input.png: screen covered by an overlay the hierarchy cannot see behind
-  - step-061-assertCondition-otp-input.png: screen covered by an overlay the hierarchy cannot see behind
