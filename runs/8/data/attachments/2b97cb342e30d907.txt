@@ -1,0 +1,5 @@
+These screenshots were not published because they could not be checked for
+personal data (see docs/29-test-reporting.md):
+
+  - step-026-assertCondition-tab-button-home.png: screen covered by an overlay the hierarchy cannot see behind
+  - step-003-runFlow.png: no screen hierarchy for this step to mask against
