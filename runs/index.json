@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-10-26T12:40:29.459Z",
-  "runCount": 7,
+  "generatedAt": "2026-10-26T13:49:10.812Z",
+  "runCount": 8,
   "runs": [
+    {
+      "run": 13,
+      "url": "13/",
+      "buildName": "#13 (dev)",
+      "buildUrl": "https://github.com/zaptatech/bling-buyer-mobile-app/actions/runs/40333647630",
+      "runAt": "2026-10-26T13:49:01Z",
+      "branch": "dev",
+      "commit": "a0ecb57",
+      "trigger": "push",
+      "included": "Jest (unit, component, hook) + Maestro E2E (iOS)",
+      "total": 863,
+      "passed": 862,
+      "failed": 1,
+      "broken": 0,
+      "skipped": 0,
+      "e2eFlows": "43",
+      "e2eFailed": "1",
+      "e2eUploadedAt": "2026-10-26T12:37:54Z",
+      "e2eStatus": ""
+    },
     {
       "run": 12,
       "url": "12/",
