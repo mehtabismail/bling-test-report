@@ -1,1 +1,1 @@
-{"reportName":"Bling Test Report","testRuns":[],"statistic":{"failed":0,"broken":0,"skipped":0,"passed":843,"unknown":0,"total":843},"time":{"start":1793016287601,"stop":1793173353455,"duration":157065854,"minDuration":0,"maxDuration":301571,"sumDuration":2817183}}
+{"reportName":"Bling Test Report","testRuns":[],"statistic":{"failed":0,"broken":12,"skipped":0,"passed":274,"unknown":0,"total":286},"time":{"start":1793016287601,"stop":1795079482938,"duration":2063195337,"minDuration":0,"maxDuration":301571,"sumDuration":2813027}}

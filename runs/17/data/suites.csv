@@ -1,0 +1,418 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","0","should resolve the dial code for AE","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","","__tests__/modules/listing/setPriceStep.test.ts","","","broken","Thu Nov 19 09:11:21 UTC 2026","","(test file execution)","",""
+"","0","offers payout filters to sellers only","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"","65005","j23-buyer-make-offer","E2E","Mon Oct 26 12:25:44 UTC 2026","passed","Mon Oct 26 12:26:49 UTC 2026","Test Suite","E2E (Maestro)","j23-buyer-make-offer",""
+"","1","should mark a just-created shipment as current on its first stage","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"","4","does not offer the wallet when the balance is short","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/screens/order-detail/__tests__","",""
+"","11","returns null until price and rate are usable","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"","1","sorts orders into Active, Delivered, Cancelled & returns","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"","0","keeps legacy null amounts as null and drops an unknown payout status","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"","0","should replace a stale copy of the label left in the cache","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"","66588","j25-buyer-add-to-cart","E2E","Mon Oct 26 12:27:55 UTC 2026","passed","Mon Oct 26 12:29:01 UTC 2026","Test Suite","E2E (Maestro)","j25-buyer-add-to-cart",""
+"","1","should prefer the backend's relative url","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"My Activity hub: who sees which tab, the header strip, the ""add a bank"" prompt,
+and where each row in the payment history goes. Every request is skipped for
+guests and every seller request for non-sellers.","3","does not ask for a bank account when an account is linked","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/activity/__tests__","",""
+"","1","should drop a leading zero as it did before","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","1","should download the PDF with the seller's token and open the share sheet","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"","1","has a stage note for every stage","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"","","__tests__/listing/conditionPriceRangeCard.test.tsx","","","broken","Thu Nov 19 09:11:22 UTC 2026","","(test file execution)","",""
+"","12","verifies with the backend when CPay redirects to success","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/screens/order-detail/__tests__","",""
+"","58554","j44-seller-referral-qr","E2E","Mon Oct 26 12:22:42 UTC 2026","passed","Mon Oct 26 12:23:41 UTC 2026","Test Suite","E2E (Maestro)","j44-seller-referral-qr",""
+"","1","moves the progress line Placed → Authenticated → Shipped → Delivered","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"My Activity hub: who sees which tab, the header strip, the ""add a bank"" prompt,
+and where each row in the payment history goes. Every request is skipped for
+guests and every seller request for non-sellers.","3","routes an earning row to the sale","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/activity/__tests__","",""
+"","1","should match on the calling code with or without a plus","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","1","lists only offers made by the other side on open negotiations","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"","0","should cap typed input at 9 digits","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","1","maps the backend payout detail","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"","0","should compose the url from the shipment id when the backend sent none","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","1","should report not-ready for an empty file instead of sharing it","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"","0","should drop a pasted 966 prefix as it did before","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"My Activity hub: who sees which tab, the header strip, the ""add a bank"" prompt,
+and where each row in the payment history goes. Every request is skipped for
+guests and every seller request for non-sellers.","5","lists the buyer's purchases, named by how they were paid","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/activity/__tests__","",""
+"","1","should match on the ISO code","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","0","should apply Saudi rules on login when Saudi Arabia is selected","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","44657","j26-buyer-checkout","E2E","Mon Oct 26 12:29:01 UTC 2026","passed","Mon Oct 26 12:29:46 UTC 2026","Test Suite","E2E (Maestro)","j26-buyer-checkout",""
+"","1","is empty without a user","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"","0","should allow a 15-digit ceiling for the input field","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","0","should reject a number shorter than 9 digits","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"Seller's sold orders (v3): the Selling-tab card (status-bearing id, what the
+seller earns, Download waybill) and the order detail — Screen 4 (order, product,
+link to shipping) and its shipment page (waybill + tracking controls, and the
+outcome of a waybill download). The Maestro flows in
+.maestro/flows/orders/seller-*.yaml drive these on the real QA seller; these
+tests cover the states that account may not be in.","1601","should show the shipment card on the shipment page","","Thu Nov 19 09:11:17 UTC 2026","passed","Thu Nov 19 09:11:19 UTC 2026","","__tests__/screens","",""
+"","0","should resolve the dial code for EG","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","1","should return every country for an empty or whitespace query","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","1","is null without sales","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"","2","clears a flow left over from checkout before starting","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/screens/order-detail/__tests__","",""
+"","0","should strip a national trunk prefix","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","0","should never show when there is no label to print","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","1","should keep the Saudi placeholder identical to the existing one","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","","src/modules/order/__tests__/buyerOrderComponents.test.tsx","","","broken","Thu Nov 19 09:11:22 UTC 2026","","(test file execution)","",""
+"","1","should add a missing leading slash to the relative url","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","0","should not apply the Saudi leading-5 rule to other countries","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","0","should fall back to DHL's public tracking page for a bare tracking number","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","2","should accept a Saudi number on login when no country is supplied","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","1","should apply Saudi rules when no country is passed","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"My Activity hub: who sees which tab, the header strip, the ""add a bank"" prompt,
+and where each row in the payment history goes. Every request is skipped for
+guests and every seller request for non-sellers.","3","routes a purchase row to the order, selecting it first when it is loaded","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/activity/__tests__","",""
+"","0","should report a plain failure for any other error","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"My Activity hub: who sees which tab, the header strip, the ""add a bank"" prompt,
+and where each row in the payment history goes. Every request is skipped for
+guests and every seller request for non-sellers.","1","shows available earnings instead of on-the-way for a seller","","Thu Nov 19 09:11:20 UTC 2026","passed","Thu Nov 19 09:11:20 UTC 2026","","src/modules/activity/__tests__","",""
+"","61724","j18-buyer-wishlists","E2E","Mon Oct 26 12:21:32 UTC 2026","passed","Mon Oct 26 12:22:34 UTC 2026","Test Suite","E2E (Maestro)","j18-buyer-wishlists",""
+"","0","should produce a placeholder mask in the existing Saudi style","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","5","only allows tabs the member has","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"","0","should hide once the shipment is IN_AUTHENTICATION","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","0","should allow the download once segment 1 has a tracking number AND a label url","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","1","should ignore case in timeline statuses","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"","0","should label PICKED_UP for the seller","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","0","should fall back to segment 1's status when the shipment has none","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","1","should always list the six stages in shipping order","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"","34944","j01-cold-start","E2E","Mon Oct 26 12:04:47 UTC 2026","passed","Mon Oct 26 12:05:22 UTC 2026","Test Suite","E2E (Maestro)","j01-cold-start",""
+"","0","should ignore case","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"","0","should include Saudi Arabia with its calling code and Arabic name","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","88736","j17-buyer-wallet","E2E","Mon Oct 26 12:20:04 UTC 2026","passed","Mon Oct 26 12:21:32 UTC 2026","Test Suite","E2E (Maestro)","j17-buyer-wallet",""
+"","72389","j38-seller-order-commission","E2E","Mon Oct 26 12:15:39 UTC 2026","passed","Mon Oct 26 12:16:51 UTC 2026","Test Suite","E2E (Maestro)","j38-seller-order-commission",""
+"","0","should use the carrier's own tracking url when there is one","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","1","should return an empty string when formatting an invalid number","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","8461","j35-seller-listing-publish","E2E","Mon Oct 26 12:12:48 UTC 2026","passed","Mon Oct 26 12:12:56 UTC 2026","Test Suite","E2E (Maestro)","j35-seller-listing-publish",""
+"","64850","j08-guest-settings-theme","E2E","Mon Oct 26 12:10:02 UTC 2026","passed","Mon Oct 26 12:11:07 UTC 2026","Test Suite","E2E (Maestro)","j08-guest-settings-theme",""
+"","0","should label DELIVERED for the seller","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"","0","is null before the buyer pays","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"","1","reads the IBAN tail and the rate","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"","0","should send no authorization header without a token","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"","1","should match on the English name, case-insensitively","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"My Activity hub: who sees which tab, the header strip, the ""add a bank"" prompt,
+and where each row in the payment history goes. Every request is skipped for
+guests and every seller request for non-sellers.","3","keeps Selling for a seller whose listings have all sold","","Thu Nov 19 09:11:20 UTC 2026","passed","Thu Nov 19 09:11:20 UTC 2026","","src/modules/activity/__tests__","",""
+"","1","should strip a pasted calling code","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","164915","j12-buyer-login","E2E","Mon Oct 26 12:13:43 UTC 2026","passed","Mon Oct 26 12:16:28 UTC 2026","Test Suite","E2E (Maestro)","j12-buyer-login",""
+"","0","should reject a number that does not start with 5","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","0","should label DROPPED_WAREHOUSE for the seller","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"","0","should reject a number longer than 9 digits","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","3","offers the wallet when the balance covers the total","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/screens/order-detail/__tests__","",""
+"","63597","j09-guest-notification-toggle","E2E","Mon Oct 26 12:11:07 UTC 2026","passed","Mon Oct 26 12:12:11 UTC 2026","Test Suite","E2E (Maestro)","j09-guest-notification-toggle",""
+"","3","abandons the session and explains when CPay redirects to failure","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/screens/order-detail/__tests__","",""
+"","1","should return null with neither a url nor a shipment id","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","1","cancels an unpaid order 24 hours after it was placed","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"","1","uses the earning-stage vocabulary","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"","1","should default to Saudi Arabia","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","","__tests__/scripts/e2eJourneySummary.test.ts","","","broken","Thu Nov 19 09:11:22 UTC 2026","","(test file execution)","",""
+"","1","should report not-ready when the label endpoint answers 404","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"","9","should keep the dataset's alphabetical order in the results","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","7","refreshes the order and the buyer list after a verified payment","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/screens/order-detail/__tests__","",""
+"","0","should label ASSIGNED for the seller","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","0","should apply the selected country's rules on login","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","53471","j20-buyer-negotiations","E2E","Mon Oct 26 12:23:25 UTC 2026","passed","Mon Oct 26 12:24:18 UTC 2026","Test Suite","E2E (Maestro)","j20-buyer-negotiations",""
+"","3","should accept a 9-digit number starting with 5","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","301571","j30-seller-login","E2E","Mon Oct 26 14:08:00 UTC 2026","passed","Mon Oct 26 14:13:01 UTC 2026","Test Suite","E2E (Maestro)","j30-seller-login",""
+"","8","offers payment only for an unpaid order","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/screens/order-detail/__tests__","",""
+"","","__tests__/scripts/redactScreenshot.test.ts","","","broken","Thu Nov 19 09:11:21 UTC 2026","","(test file execution)","",""
+"","0","should collapse double slashes but keep the protocol's","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","34","should give every country a dial code and both names","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","6","should return null for an unknown or missing status, so the raw one is shown","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"","44729","j13-buyer-profile","E2E","Mon Oct 26 12:16:29 UTC 2026","passed","Mon Oct 26 12:17:13 UTC 2026","Test Suite","E2E (Maestro)","j13-buyer-profile",""
+"Seller's sold orders (v3): the Selling-tab card (status-bearing id, what the
+seller earns, Download waybill) and the order detail — Screen 4 (order, product,
+link to shipping) and its shipment page (waybill + tracking controls, and the
+outcome of a waybill download). The Maestro flows in
+.maestro/flows/orders/seller-*.yaml drive these on the real QA seller; these
+tests cover the states that account may not be in.","108","should expand the first shipment's timeline and let the seller collapse it","","Thu Nov 19 09:11:20 UTC 2026","passed","Thu Nov 19 09:11:20 UTC 2026","tracking","__tests__/screens","",""
+"Seller's sold orders (v3): the Selling-tab card (status-bearing id, what the
+seller earns, Download waybill) and the order detail — Screen 4 (order, product,
+link to shipping) and its shipment page (waybill + tracking controls, and the
+outcome of a waybill download). The Maestro flows in
+.maestro/flows/orders/seller-*.yaml drive these on the real QA seller; these
+tests cover the states that account may not be in.","68","should drop the banner but keep the download once DHL has collected the parcel","","Thu Nov 19 09:11:19 UTC 2026","passed","Thu Nov 19 09:11:19 UTC 2026","waybill","__tests__/screens","",""
+"","0","should accept a valid IN number and format it to E.164","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","1","treats a cancelled or returned sale as Cancelled","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"","0","should not apply the Saudi 9-digit limit to other countries","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","46715","j02-guest-shop-search","E2E","Mon Oct 26 12:05:22 UTC 2026","passed","Mon Oct 26 12:06:09 UTC 2026","Test Suite","E2E (Maestro)","j02-guest-shop-search",""
+"","65702","j24-buyer-delete-account-cancel","E2E","Mon Oct 26 12:26:49 UTC 2026","passed","Mon Oct 26 12:27:55 UTC 2026","Test Suite","E2E (Maestro)","j24-buyer-delete-account-cancel",""
+"","0","should leave every stage pending when nothing is known yet","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"","44272","j46-logout","E2E","Mon Oct 26 12:24:58 UTC 2026","passed","Mon Oct 26 12:25:42 UTC 2026","Test Suite","E2E (Maestro)","j46-logout",""
+"Seller's sold orders (v3): the Selling-tab card (status-bearing id, what the
+seller earns, Download waybill) and the order detail — Screen 4 (order, product,
+link to shipping) and its shipment page (waybill + tracking controls, and the
+outcome of a waybill download). The Maestro flows in
+.maestro/flows/orders/seller-*.yaml drive these on the real QA seller; these
+tests cover the states that account may not be in.","187","should show the order, its status and product, and link to the shipment (v3 Screen 4)","","Thu Nov 19 09:11:17 UTC 2026","passed","Thu Nov 19 09:11:17 UTC 2026","","__tests__/screens","",""
+"","1","lists payouts as money paid to the bank, linked to their order","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"","0","should resolve the dial code for US","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","1","shows On the way from the order status when the list has no shipment status","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"","0","should keep the Saudi input limit at 9 digits","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","1","should keep a leading digit that is part of the number","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","0","should contain every country libphonenumber supports","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","0","should never emit +966 for a valid US number","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","0","is all zeros when the summary or breakdown is missing","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"","0","follows the real shipment through both DHL legs","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"My Activity hub: who sees which tab, the header strip, the ""add a bank"" prompt,
+and where each row in the payment history goes. Every request is skipped for
+guests and every seller request for non-sellers.","4","adds Selling for a verified seller with a listing","","Thu Nov 19 09:11:20 UTC 2026","passed","Thu Nov 19 09:11:20 UTC 2026","","src/modules/activity/__tests__","",""
+"","1","should keep the Saudi error message for Saudi and a generic one otherwise","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","0","should hide once the shipment is DROPPED_WAREHOUSE","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","1","should complete every stage before the furthest one reached","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"Seller's sold orders (v3): the Selling-tab card (status-bearing id, what the
+seller earns, Download waybill) and the order detail — Screen 4 (order, product,
+link to shipping) and its shipment page (waybill + tracking controls, and the
+outcome of a waybill download). The Maestro flows in
+.maestro/flows/orders/seller-*.yaml drive these on the real QA seller; these
+tests cover the states that account may not be in.","153","should offer Download waybill on a sale to ship once the label exists","","Thu Nov 19 09:11:20 UTC 2026","passed","Thu Nov 19 09:11:20 UTC 2026","","__tests__/screens","",""
+"My Activity hub: who sees which tab, the header strip, the ""add a bank"" prompt,
+and where each row in the payment history goes. Every request is skipped for
+guests and every seller request for non-sellers.","16","does not ask for a bank account when nothing is available yet","","Thu Nov 19 09:11:20 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/activity/__tests__","",""
+"Seller's sold orders (v3): the Selling-tab card (status-bearing id, what the
+seller earns, Download waybill) and the order detail — Screen 4 (order, product,
+link to shipping) and its shipment page (waybill + tracking controls, and the
+outcome of a waybill download). The Maestro flows in
+.maestro/flows/orders/seller-*.yaml drive these on the real QA seller; these
+tests cover the states that account may not be in.","71","should ask the seller to print the label while the parcel is still with them","","Thu Nov 19 09:11:19 UTC 2026","passed","Thu Nov 19 09:11:19 UTC 2026","waybill","__tests__/screens","",""
+"","83539","j40-seller-payments-earnings","E2E","Mon Oct 26 12:18:02 UTC 2026","passed","Mon Oct 26 12:19:26 UTC 2026","Test Suite","E2E (Maestro)","j40-seller-payments-earnings",""
+"","0","adds unpaid earnings and card purchases, without double-counting wallet purchases","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"","0","should return an empty string for an invalid Saudi number","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","0","should not carry an invalid number into Saudi Arabia when switching back","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"My Activity hub: who sees which tab, the header strip, the ""add a bank"" prompt,
+and where each row in the payment history goes. Every request is skipped for
+guests and every seller request for non-sellers.","4","requests nothing for a guest","","Thu Nov 19 09:11:20 UTC 2026","passed","Thu Nov 19 09:11:20 UTC 2026","","src/modules/activity/__tests__","",""
+"","44239","j11-auth-invalid-phone","E2E","Mon Oct 26 12:12:59 UTC 2026","passed","Mon Oct 26 12:13:43 UTC 2026","Test Suite","E2E (Maestro)","j11-auth-invalid-phone",""
+"Seller's sold orders (v3): the Selling-tab card (status-bearing id, what the
+seller earns, Download waybill) and the order detail — Screen 4 (order, product,
+link to shipping) and its shipment page (waybill + tracking controls, and the
+outcome of a waybill download). The Maestro flows in
+.maestro/flows/orders/seller-*.yaml drive these on the real QA seller; these
+tests cover the states that account may not be in.","125","should report a download that returns {""ok"":false,""notReady"":true} as 'notReady'","","Thu Nov 19 09:11:19 UTC 2026","passed","Thu Nov 19 09:11:20 UTC 2026","waybill","__tests__/screens","",""
+"","0","does not let the seller's PENDING fulfil status hold the order at Placed","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"","0","should treat DELIVERED as finished, not in progress","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"","0","reads the detail payload's currentStatus","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"","1","parses the order total the API sends as a formatted string","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/screens/order-detail/__tests__","",""
+"","1","should return null when there is nothing to track","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","0","is the rate actually applied over the period, not the current rate","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"","0","should hide once the shipment is DELIVERED","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","1","should not allow it before DHL has issued the label","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","0","falls back when there is no timeline (older backend)","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"","0","should resolve the dial code for PK","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","3","matches the proposal's Cartier example (8% on the price after discount)","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"","6","should re-apply Saudi rules when switching back from another country","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","0","should label PICKED_VENDOR for the seller","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","1","should resolve the dial code for GB","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"Seller's sold orders (v3): the Selling-tab card (status-bearing id, what the
+seller earns, Download waybill) and the order detail — Screen 4 (order, product,
+link to shipping) and its shipment page (waybill + tracking controls, and the
+outcome of a waybill download). The Maestro flows in
+.maestro/flows/orders/seller-*.yaml drive these on the real QA seller; these
+tests cover the states that account may not be in.","166","should report a download that returns {""ok"":true} as 'ok'","","Thu Nov 19 09:11:19 UTC 2026","passed","Thu Nov 19 09:11:19 UTC 2026","waybill","__tests__/screens","",""
+"","0","should accept a valid AE number and format it to E.164","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","0","uses one status vocabulary","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"","1","should report not-ready when the label endpoint answers 425","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"","0","adds scheduled payouts to Available","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"My Activity hub: who sees which tab, the header strip, the ""add a bank"" prompt,
+and where each row in the payment history goes. Every request is skipped for
+guests and every seller request for non-sellers.","1","asks for a bank account when money is ready but no payout account exists","","Thu Nov 19 09:11:20 UTC 2026","passed","Thu Nov 19 09:11:20 UTC 2026","","src/modules/activity/__tests__","",""
+"","47781","j03-guest-product-detail","E2E","Mon Oct 26 12:06:09 UTC 2026","passed","Mon Oct 26 12:06:57 UTC 2026","Test Suite","E2E (Maestro)","j03-guest-product-detail",""
+"","1","keeps cancelling to Placed only — never reopened after DHL collects","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"","37510","j06-guest-sell-gate","E2E","Mon Oct 26 12:08:44 UTC 2026","passed","Mon Oct 26 12:09:21 UTC 2026","Test Suite","E2E (Maestro)","j06-guest-sell-gate",""
+"","1","should label IN_TRANSIT for the seller","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"","3","gives sellers a Selling tab and everyone else three tabs","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"","0","should hide once the shipment is PICKED_UP","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","57623","j43-seller-offers","E2E","Mon Oct 26 12:21:44 UTC 2026","passed","Mon Oct 26 12:22:42 UTC 2026","Test Suite","E2E (Maestro)","j43-seller-offers",""
+"My Activity hub: who sees which tab, the header strip, the ""add a bank"" prompt,
+and where each row in the payment history goes. Every request is skipped for
+guests and every seller request for non-sellers.","8","offers buyer filters, and the earning / payout filters only to sellers","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/activity/__tests__","",""
+"","36619","j14-buyer-activity-hub","E2E","Mon Oct 26 12:17:13 UTC 2026","passed","Mon Oct 26 12:17:50 UTC 2026","Test Suite","E2E (Maestro)","j14-buyer-activity-hub",""
+"","50232","j19-buyer-support","E2E","Mon Oct 26 12:22:34 UTC 2026","passed","Mon Oct 26 12:23:24 UTC 2026","Test Suite","E2E (Maestro)","j19-buyer-support",""
+"My Activity hub: who sees which tab, the header strip, the ""add a bank"" prompt,
+and where each row in the payment history goes. Every request is skipped for
+guests and every seller request for non-sellers.","2","gives no Selling tab to a verified seller with nothing listed or sold","","Thu Nov 19 09:11:20 UTC 2026","passed","Thu Nov 19 09:11:20 UTC 2026","","src/modules/activity/__tests__","",""
+"","","__tests__/shared/useDynamicProgress.test.ts","","","broken","Thu Nov 19 09:11:22 UTC 2026","","(test file execution)","",""
+"","1","filters by kind","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"","0","should never emit +966 for a valid IN number","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","1","should find segment 1 (seller → Bling) and segment 2 (Bling → buyer) by number","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","5","pays by card through CPay retry on the same order and opens the sheet","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/screens/order-detail/__tests__","",""
+"","0","should never emit +966 for a valid EG number","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","38442","j05-guest-checkout-gate","E2E","Mon Oct 26 12:08:05 UTC 2026","passed","Mon Oct 26 12:08:44 UTC 2026","Test Suite","E2E (Maestro)","j05-guest-checkout-gate",""
+"Seller's sold orders (v3): the Selling-tab card (status-bearing id, what the
+seller earns, Download waybill) and the order detail — Screen 4 (order, product,
+link to shipping) and its shipment page (waybill + tracking controls, and the
+outcome of a waybill download). The Maestro flows in
+.maestro/flows/orders/seller-*.yaml drive these on the real QA seller; these
+tests cover the states that account may not be in.","18","should not offer Download waybill after shipping","","Thu Nov 19 09:11:20 UTC 2026","passed","Thu Nov 19 09:11:20 UTC 2026","","__tests__/screens","",""
+"","77303","j42-seller-payout-detail","E2E","Mon Oct 26 12:20:27 UTC 2026","passed","Mon Oct 26 12:21:44 UTC 2026","Test Suite","E2E (Maestro)","j42-seller-payout-detail",""
+"","7","should treat a country as a match for its own name and code","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","1","maps the order vendor block","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"Seller's sold orders (v3): the Selling-tab card (status-bearing id, what the
+seller earns, Download waybill) and the order detail — Screen 4 (order, product,
+link to shipping) and its shipment page (waybill + tracking controls, and the
+outcome of a waybill download). The Maestro flows in
+.maestro/flows/orders/seller-*.yaml drive these on the real QA seller; these
+tests cover the states that account may not be in.","29","should still offer Download waybill on a sale to ship when the list has no shipment","","Thu Nov 19 09:11:20 UTC 2026","passed","Thu Nov 19 09:11:20 UTC 2026","","__tests__/screens","",""
+"My Activity hub: who sees which tab, the header strip, the ""add a bank"" prompt,
+and where each row in the payment history goes. Every request is skipped for
+guests and every seller request for non-sellers.","3","shows wallet · on the way · action for a buyer","","Thu Nov 19 09:11:20 UTC 2026","passed","Thu Nov 19 09:11:20 UTC 2026","","src/modules/activity/__tests__","",""
+"","1","shows an unpaid order as Awaiting payment, not Placed","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"","5","closes the sheet and shows the backend's reason when payment cannot start","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/screens/order-detail/__tests__","",""
+"","0","should not allow it for a missing shipment","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","2","should accept a valid GB number and format it to E.164","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","2","should resolve the Saudi dial code to +966","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","1","formats amounts with Western digits and optional decimals","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"","1","should apply the same phone rules on signup","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","0","should label IN_AUTHENTICATION for the seller","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"","0","should accept a valid EG number and format it to E.164","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","0","leaves live sales alone","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"","1","rejects missing or malformed payouts","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"","61125","j41-seller-payout-account","E2E","Mon Oct 26 12:19:26 UTC 2026","passed","Mon Oct 26 12:20:27 UTC 2026","Test Suite","E2E (Maestro)","j41-seller-payout-account",""
+"","60514","j15-buyer-orders-tabs","E2E","Mon Oct 26 12:17:50 UTC 2026","passed","Mon Oct 26 12:18:50 UTC 2026","Test Suite","E2E (Maestro)","j15-buyer-orders-tabs",""
+"","1","is Pending once paid and not delivered","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"My Activity hub: who sees which tab, the header strip, the ""add a bank"" prompt,
+and where each row in the payment history goes. Every request is skipped for
+guests and every seller request for non-sellers.","8","gives a buyer All · Buying · Payments and skips every seller request","","Thu Nov 19 09:11:20 UTC 2026","passed","Thu Nov 19 09:11:20 UTC 2026","","src/modules/activity/__tests__","",""
+"","10","should open the file directly when the share sheet is unavailable","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"Seller's sold orders (v3): the Selling-tab card (status-bearing id, what the
+seller earns, Download waybill) and the order detail — Screen 4 (order, product,
+link to shipping) and its shipment page (waybill + tracking controls, and the
+outcome of a waybill download). The Maestro flows in
+.maestro/flows/orders/seller-*.yaml drive these on the real QA seller; these
+tests cover the states that account may not be in.","78","should show segment 2 as pending until Bling ships to the buyer","","Thu Nov 19 09:11:20 UTC 2026","passed","Thu Nov 19 09:11:20 UTC 2026","tracking","__tests__/screens","",""
+"","1","should be sorted by English name","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","1","should narrow as more digits of the calling code are typed","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","0","shows Selling only for verified sellers with a listing or a sale","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"","1","lets the payout status win","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"My Activity hub: who sees which tab, the header strip, the ""add a bank"" prompt,
+and where each row in the payment history goes. Every request is skipped for
+guests and every seller request for non-sellers.","7","Start selling goes to KYC first, or straight to listing for a verified seller","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/activity/__tests__","",""
+"","1","should never emit +966 for a valid GB number","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","1","keeps a cancelled sale out of 'to ship'","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"My Activity hub: who sees which tab, the header strip, the ""add a bank"" prompt,
+and where each row in the payment history goes. Every request is skipped for
+guests and every seller request for non-sellers.","3","falls back to All when a buyer is deep-linked to Selling","","Thu Nov 19 09:11:20 UTC 2026","passed","Thu Nov 19 09:11:20 UTC 2026","","src/modules/activity/__tests__","",""
+"","1","should delegate to the existing Saudi helpers","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","","__tests__/shared/watchchartsRegionalPrices.test.ts","","","broken","Thu Nov 19 09:11:22 UTC 2026","","(test file execution)","",""
+"","1","keeps paid and cancelled orders out of Awaiting payment","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"My Activity hub: who sees which tab, the header strip, the ""add a bank"" prompt,
+and where each row in the payment history goes. Every request is skipped for
+guests and every seller request for non-sellers.","3","opens the requested allowed tab and lets the user switch","","Thu Nov 19 09:11:20 UTC 2026","passed","Thu Nov 19 09:11:20 UTC 2026","","src/modules/activity/__tests__","",""
+"","0","should reject a too-short number","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","","src/modules/payout/__tests__/usePayoutDetail.test.ts","","","broken","Thu Nov 19 09:11:22 UTC 2026","","(test file execution)","",""
+"","","__tests__/utils/catalogAttributeOptions.test.ts","","","broken","Thu Nov 19 09:11:22 UTC 2026","","(test file execution)","",""
+"","0","should match on the Arabic name","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"Seller's sold orders (v3): the Selling-tab card (status-bearing id, what the
+seller earns, Download waybill) and the order detail — Screen 4 (order, product,
+link to shipping) and its shipment page (waybill + tracking controls, and the
+outcome of a waybill download). The Maestro flows in
+.maestro/flows/orders/seller-*.yaml drive these on the real QA seller; these
+tests cover the states that account may not be in.","118","should show 'label pending' and no download before the label exists","","Thu Nov 19 09:11:19 UTC 2026","passed","Thu Nov 19 09:11:19 UTC 2026","waybill","__tests__/screens","",""
+"","0","should report not-ready when the label endpoint answers 409","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"","48095","j10-auth-signup-link","E2E","Mon Oct 26 12:12:11 UTC 2026","passed","Mon Oct 26 12:12:59 UTC 2026","Test Suite","E2E (Maestro)","j10-auth-signup-link",""
+"","1","downloads the PDF route, not the JSON receipt data","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"","0","should label CREATED for the seller","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","1","should return nothing for a query that matches no country","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","0","is Available when delivered even before the payout row exists","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"My Activity hub: who sees which tab, the header strip, the ""add a bank"" prompt,
+and where each row in the payment history goes. Every request is skipped for
+guests and every seller request for non-sellers.","8","applies a deep-linked Selling tab once the role has loaded","","Thu Nov 19 09:11:20 UTC 2026","passed","Thu Nov 19 09:11:20 UTC 2026","","src/modules/activity/__tests__","",""
+"","1","ignores a discount that is not below the price","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"","0","should hide once the shipment is IN_TRANSIT","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","39933","j07-guest-notifications-gate","E2E","Mon Oct 26 12:09:22 UTC 2026","passed","Mon Oct 26 12:10:02 UTC 2026","Test Suite","E2E (Maestro)","j07-guest-notifications-gate",""
+"","4","ignores a payment state this screen did not start","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/screens/order-detail/__tests__","",""
+"","104968","j37-seller-activity-selling","E2E","Mon Oct 26 12:13:54 UTC 2026","passed","Mon Oct 26 12:15:38 UTC 2026","Test Suite","E2E (Maestro)","j37-seller-activity-selling",""
+"Seller's sold orders (v3): the Selling-tab card (status-bearing id, what the
+seller earns, Download waybill) and the order detail — Screen 4 (order, product,
+link to shipping) and its shipment page (waybill + tracking controls, and the
+outcome of a waybill download). The Maestro flows in
+.maestro/flows/orders/seller-*.yaml drive these on the real QA seller; these
+tests cover the states that account may not be in.","87","should report a download that returns {""ok"":false,""notReady"":false} as 'failed'","","Thu Nov 19 09:11:20 UTC 2026","passed","Thu Nov 19 09:11:20 UTC 2026","waybill","__tests__/screens","",""
+"My Activity hub: who sees which tab, the header strip, the ""add a bank"" prompt,
+and where each row in the payment history goes. Every request is skipped for
+guests and every seller request for non-sellers.","1","opens offers and sales by id","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/activity/__tests__","",""
+"Seller's sold orders (v3): the Selling-tab card (status-bearing id, what the
+seller earns, Download waybill) and the order detail — Screen 4 (order, product,
+link to shipping) and its shipment page (waybill + tracking controls, and the
+outcome of a waybill download). The Maestro flows in
+.maestro/flows/orders/seller-*.yaml drive these on the real QA seller; these
+tests cover the states that account may not be in.","27","should carry the order's raw status on its id","","Thu Nov 19 09:11:20 UTC 2026","passed","Thu Nov 19 09:11:20 UTC 2026","","__tests__/screens","",""
+"","35942","j33-seller-listing-photos","E2E","Mon Oct 26 12:10:18 UTC 2026","passed","Mon Oct 26 12:10:54 UTC 2026","Test Suite","E2E (Maestro)","j33-seller-listing-photos",""
+"","0","should match a partial name anywhere in the string","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","1","should hide once the shipment is PICKED_WAREHOUSE","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","73020","j16-buyer-order-invoice","E2E","Mon Oct 26 12:18:51 UTC 2026","passed","Mon Oct 26 12:20:04 UTC 2026","Test Suite","E2E (Maestro)","j16-buyer-order-invoice",""
+"","35286","j21-buyer-notifications","E2E","Mon Oct 26 12:24:18 UTC 2026","passed","Mon Oct 26 12:24:53 UTC 2026","Test Suite","E2E (Maestro)","j21-buyer-notifications",""
+"","2","maps the backend buckets onto the four stages","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"My Activity hub: who sees which tab, the header strip, the ""add a bank"" prompt,
+and where each row in the payment history goes. Every request is skipped for
+guests and every seller request for non-sellers.","5","routes a top-up row to the wallet","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/activity/__tests__","",""
+"My Activity hub: who sees which tab, the header strip, the ""add a bank"" prompt,
+and where each row in the payment history goes. Every request is skipped for
+guests and every seller request for non-sellers.","2","routes a payout row to payout detail","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/activity/__tests__","",""
+"","","__tests__/services/deeplink/chottuLinkDeferredInstall.test.ts","","","broken","Thu Nov 19 09:11:22 UTC 2026","","(test file execution)","",""
+"","1","should reject a too-long number","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","0","should name the file after the shipment when there is no tracking number","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"","1","should fail without touching the network when there is no url to build","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"","28017","j31-seller-sell-tab","E2E","Mon Oct 26 12:08:49 UTC 2026","passed","Mon Oct 26 12:09:17 UTC 2026","Test Suite","E2E (Maestro)","j31-seller-sell-tab",""
+"Seller's sold orders (v3): the Selling-tab card (status-bearing id, what the
+seller earns, Download waybill) and the order detail — Screen 4 (order, product,
+link to shipping) and its shipment page (waybill + tracking controls, and the
+outcome of a waybill download). The Maestro flows in
+.maestro/flows/orders/seller-*.yaml drive these on the real QA seller; these
+tests cover the states that account may not be in.","24","should show what the seller earns and the stage","","Thu Nov 19 09:11:20 UTC 2026","passed","Thu Nov 19 09:11:20 UTC 2026","","__tests__/screens","",""
+"","50357","j22-buyer-product-gallery","E2E","Mon Oct 26 12:24:53 UTC 2026","passed","Mon Oct 26 12:25:44 UTC 2026","Test Suite","E2E (Maestro)","j22-buyer-product-gallery",""
+"","1","tolerates missing inputs","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"","2","should return undefined for a shipment with no carrier segments","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","0","should reject an empty number","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","1","should label CANCELLED for the seller","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"","1","should reject an empty number","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","0","should hide once the shipment is CANCELLED","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"Seller's sold orders (v3): the Selling-tab card (status-bearing id, what the
+seller earns, Download waybill) and the order detail — Screen 4 (order, product,
+link to shipping) and its shipment page (waybill + tracking controls, and the
+outcome of a waybill download). The Maestro flows in
+.maestro/flows/orders/seller-*.yaml drive these on the real QA seller; these
+tests cover the states that account may not be in.","70","should open DHL tracking for segment 1 in the in-app browser","","Thu Nov 19 09:11:20 UTC 2026","passed","Thu Nov 19 09:11:20 UTC 2026","tracking","__tests__/screens","",""
+"","1","knows which outcomes are stages","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"","0","should never emit +966 for a valid AE number","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","77399","j45-rtl-arabic","E2E","Mon Oct 26 12:23:41 UTC 2026","passed","Mon Oct 26 12:24:58 UTC 2026","Test Suite","E2E (Maestro)","j45-rtl-arabic",""
+"","0","keeps the order paid when the list still lags behind or misses it","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/screens/order-detail/__tests__","",""
+"","","__tests__/modules/auth/otpErrors.test.ts","","","broken","Thu Nov 19 09:11:22 UTC 2026","","(test file execution)","",""
+"","1","offers Earnings and Payouts to sellers only","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"","1","should never emit +966 for a valid PK number","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","3","should accept a valid US number and format it to E.164","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","4","rounds like the backend: commission to 2dp, payout = sale − commission","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"","68313","j04-guest-add-to-cart","E2E","Mon Oct 26 12:06:57 UTC 2026","passed","Mon Oct 26 12:08:05 UTC 2026","Test Suite","E2E (Maestro)","j04-guest-add-to-cart",""
+"","0","should show while the parcel is still with the seller","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"My Activity hub: who sees which tab, the header strip, the ""add a bank"" prompt,
+and where each row in the payment history goes. Every request is skipped for
+guests and every seller request for non-sellers.","2","Add money opens the wallet and the bank prompt opens the payout account","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/activity/__tests__","",""
+"","6","converts halalas, signs debits, and sorts newest first (undated last)","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"","0","should label PICKED_WAREHOUSE for the seller","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/services","",""
+"","0","groups history under Today and then by day","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","src/modules/activity/__tests__","",""
+"","1","should accept a valid PK number and format it to E.164","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","0","returns null when the block is missing (buyer view)","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"","1","supports a 0% rate","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"","0","should format to +966 E.164","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","0","should resolve the dial code for IN","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","0","should return undefined for an unknown country","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","0","should not allow it with a tracking number but no label url","","Thu Nov 19 09:10:41 UTC 2026","passed","Thu Nov 19 09:10:41 UTC 2026","","__tests__/services","",""
+"","60464","j32-seller-listing-catalog","E2E","Mon Oct 26 12:09:17 UTC 2026","passed","Mon Oct 26 12:10:18 UTC 2026","Test Suite","E2E (Maestro)","j32-seller-listing-catalog",""
+"","","__tests__/modules/listing/watchchartsRecommendedPrice.test.ts","","","broken","Thu Nov 19 09:11:22 UTC 2026","","(test file execution)","",""
+"","113870","j34-seller-listing-details","E2E","Mon Oct 26 12:10:54 UTC 2026","passed","Mon Oct 26 12:12:48 UTC 2026","Test Suite","E2E (Maestro)","j34-seller-listing-details",""
+"","2","should trim digits beyond the country's maximum length","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","2","takes the refreshed copy once it shows the order paid","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/screens/order-detail/__tests__","",""
+"","70921","j39-seller-insights","E2E","Mon Oct 26 12:16:51 UTC 2026","passed","Mon Oct 26 12:18:02 UTC 2026","Test Suite","E2E (Maestro)","j39-seller-insights",""
+"","57309","j36-seller-listing-chips","E2E","Mon Oct 26 12:12:56 UTC 2026","passed","Mon Oct 26 12:13:53 UTC 2026","Test Suite","E2E (Maestro)","j36-seller-listing-chips",""
+"","39","offers the wallet only when it covers the whole total","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/screens/order-detail/__tests__","",""
+"My Activity hub: who sees which tab, the header strip, the ""add a bank"" prompt,
+and where each row in the payment history goes. Every request is skipped for
+guests and every seller request for non-sellers.","3","does not ask for a bank account when the account is still loading","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/activity/__tests__","",""
+"","1","should still require a phone number","","Thu Nov 19 09:10:42 UTC 2026","passed","Thu Nov 19 09:10:42 UTC 2026","","__tests__/utils","",""
+"","0","accepts only real PDFs","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/modules/payout/__tests__","",""
+"","4","pays from the wallet when chosen","","Thu Nov 19 09:11:21 UTC 2026","passed","Thu Nov 19 09:11:21 UTC 2026","","src/screens/order-detail/__tests__","",""
+"Seller's sold orders (v3): the Selling-tab card (status-bearing id, what the
+seller earns, Download waybill) and the order detail — Screen 4 (order, product,
+link to shipping) and its shipment page (waybill + tracking controls, and the
+outcome of a waybill download). The Maestro flows in
+.maestro/flows/orders/seller-*.yaml drive these on the real QA seller; these
+tests cover the states that account may not be in.","6","should offer a retry when the order fails to load","","Thu Nov 19 09:11:20 UTC 2026","passed","Thu Nov 19 09:11:20 UTC 2026","","__tests__/screens","",""
